@@ -1,0 +1,406 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programs\Work\Unity\UnityEditor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Programs/Work/Unity/B'sStorage/WindowEditorProjk
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52031
+Successfully changed project path to: D:/Programs/Work/Unity/B'sStorage/WindowEditorProjk
+D:/Programs/Work/Unity/B'sStorage/WindowEditorProjk
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 81.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path D:/Programs/Work/Unity/UnityEditor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Programs/Work/Unity/B'sStorage/WindowEditorProjk/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     8127 MB
+    Driver:   26.20.100.7642
+Initialize mono
+Mono path[0] = 'D:/Programs/Work/Unity/UnityEditor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Work/Unity/UnityEditor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programs/Work/Unity/UnityEditor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/Work/Unity/UnityEditor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003673 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (677ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programs\Work\Unity\B'sStorage\WindowEditorProjk\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\Programs\Work\Unity\B'sStorage\WindowEditorProjk\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6661ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (6360ms)
+			LoadAssemblies (3677ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (859ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1743ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (1287ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.5 KB). Loaded Objects now: 3685.
+Memory consumption went from 112.1 MB to 112.0 MB.
+Total: 2.778300 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.174900 ms MarkObjects: 2.248800 ms  DeleteObjects: 0.099700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14568.920461 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(d49a386891b72c94290053ac4b0ef16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(d49a386891b72c94290053ac4b0ef16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cdb2baba8a52dc2b6179902c5b81f8') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.720706 seconds.
+  path: Assets/CubeShipsFree
+  artifactKey: Guid(a4a43362d6ae37647867571e01b790f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree using Guid(a4a43362d6ae37647867571e01b790f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98126c62a7d5695c1811bea1ac526f4') in 0.008547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.350323 seconds.
+  path: Assets/CubeShipsFree/Materials
+  artifactKey: Guid(c89f09df569e64f49a267eb0d80566eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials using Guid(c89f09df569e64f49a267eb0d80566eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b844a62466963a916ed2fb7b002be31e') in 0.009177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CubeShipsFree/Materials/Bgr.mat
+  artifactKey: Guid(fabe69ea3bb5f97469fce292efa762ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/Bgr.mat using Guid(fabe69ea3bb5f97469fce292efa762ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2cc11cf4903ca6c4748364a9c886f8') in 0.683376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CubeShipsFree/Materials/BgrGallery.mat
+  artifactKey: Guid(c5dbb1106d3d65c40a37bfbeef246a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/BgrGallery.mat using Guid(c5dbb1106d3d65c40a37bfbeef246a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acc73401af1299fedb79e85a688b8dd') in 0.016741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CubeShipsFree/Materials/0.mat
+  artifactKey: Guid(a8f493c5c235f8e4dab1c884ca10b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/0.mat using Guid(a8f493c5c235f8e4dab1c884ca10b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a7c48b96b4333196614573c99b24ca') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CubeShipsFree/Materials/8.mat
+  artifactKey: Guid(281b7818dbd28fa4f9d2d01f4e873d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/8.mat using Guid(281b7818dbd28fa4f9d2d01f4e873d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde9e368e11858f4a54b2afb915e1340') in 0.016615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CubeShipsFree/Materials/Skybox.mat
+  artifactKey: Guid(389ff3af632f40c44b0f8baaa3a61b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/Skybox.mat using Guid(389ff3af632f40c44b0f8baaa3a61b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc29a3b9687ee96a30bc9de4b8395e7c') in 0.088987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CubeShipsFree/Materials/1.mat
+  artifactKey: Guid(61b8224c9ddeff449b2edcaccd2dfa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/1.mat using Guid(61b8224c9ddeff449b2edcaccd2dfa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f50f80a35cf98cd528089326074a91b') in 0.017139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CubeShipsFree/Materials/16.mat
+  artifactKey: Guid(69a9ae3457342d24bb4dd7e92eb0663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/16.mat using Guid(69a9ae3457342d24bb4dd7e92eb0663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04137938c2583a1813d539eecf06852f') in 0.015386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CubeShipsFree/Materials/Exhaust.mat
+  artifactKey: Guid(369ca3198e43fea4f80dc4896489ac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/Exhaust.mat using Guid(369ca3198e43fea4f80dc4896489ac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75cf0059f4377447b4ca8455c576feb') in 0.016697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CubeShipsFree/Materials/4.mat
+  artifactKey: Guid(1d4f8dd1b5ba5e044b0b632e16a79089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/4.mat using Guid(1d4f8dd1b5ba5e044b0b632e16a79089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486966070f71edc75b066a55530153ff') in 0.017192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CubeShipsFree/Materials/24.mat
+  artifactKey: Guid(51106158075a7f84c8a4fea2c6d0c2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/24.mat using Guid(51106158075a7f84c8a4fea2c6d0c2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef2119e1935628dac11b0dcb47bc510') in 0.016765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CubeShipsFree/Materials/Star.mat
+  artifactKey: Guid(4339b30d755ef1642b11c25c4c259777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/Star.mat using Guid(4339b30d755ef1642b11c25c4c259777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053bca0ad765c74b1a9fad0137794215') in 0.035772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CubeShipsFree/Materials/Bgr2.mat
+  artifactKey: Guid(5ee005f86a91dca428c9ac49d50b37c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Materials/Bgr2.mat using Guid(5ee005f86a91dca428c9ac49d50b37c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a534e173d23902fa00a8c7a91e80fb1d') in 0.015463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.413681 seconds.
+  path: Assets/CubeShipsFree/Models
+  artifactKey: Guid(b55e930e47564b146b49f4fb0cab46fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Models using Guid(b55e930e47564b146b49f4fb0cab46fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ee2534ea2edc9903838972e15451de') in 0.008272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011043 seconds.
+  path: Assets/CubeShipsFree/Models/SingleCube.obj
+  artifactKey: Guid(135d41782f265b64c85701f9709eae4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Models/SingleCube.obj using Guid(135d41782f265b64c85701f9709eae4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3539743a0d0a7cbb05ffaa375fd00f') in 0.198065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.571353 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.015873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.067178 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.015251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.583681 seconds.
+  path: Assets/CubeShipsFree/Textures
+  artifactKey: Guid(35a04c9d28dfb6947855aca76412c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures using Guid(35a04c9d28dfb6947855aca76412c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f67688ce182ddad2802082c1c291bd6') in 0.012652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/CubeShipsFree/Textures/8.png
+  artifactKey: Guid(be7568aafa7267947bdf3c2baccd0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/8.png using Guid(be7568aafa7267947bdf3c2baccd0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c7d18e289bad078e08f78fd8586436') in 0.039694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CubeShipsFree/Textures/1.png
+  artifactKey: Guid(8606527861878df428de46e2c6ab1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/1.png using Guid(8606527861878df428de46e2c6ab1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6853132e6ac3a35ecf140153c91c0dfb') in 0.025827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CubeShipsFree/Textures/4.png
+  artifactKey: Guid(3a62837f34d751d4b984aac20774a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/4.png using Guid(3a62837f34d751d4b984aac20774a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245b737108246e993087aba749af4b4e') in 0.022202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CubeShipsFree/Textures/star.png
+  artifactKey: Guid(b30538fed765c434ea61ac81241d4545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/star.png using Guid(b30538fed765c434ea61ac81241d4545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab0bfb7637d7d75f44d3952c2e3bbdd') in 0.027823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CubeShipsFree/Textures/16.png
+  artifactKey: Guid(57644012c63082b4c92b3cb1ab50dc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/16.png using Guid(57644012c63082b4c92b3cb1ab50dc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66d4b78f960894d2255605bef6b9333') in 0.034105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CubeShipsFree/Textures/BgrGrid.png
+  artifactKey: Guid(85993366f889dd64c93d5763d69ec950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/BgrGrid.png using Guid(85993366f889dd64c93d5763d69ec950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c78650df9968118902dca1990b5e0b') in 0.025249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CubeShipsFree/Textures/0.png
+  artifactKey: Guid(c0cc290ea3946be4bbc68cdaffe9b121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/0.png using Guid(c0cc290ea3946be4bbc68cdaffe9b121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b191ad76cdd8f78719c275f0373b5b') in 0.019483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CubeShipsFree/Textures/24.png
+  artifactKey: Guid(f491b222310c17e49a92bcb9cef15e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Textures/24.png using Guid(f491b222310c17e49a92bcb9cef15e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf40f39523a7eb40921853271b61c7') in 0.030217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.055440 seconds.
+  path: Assets/CubeShipsFree/Sound
+  artifactKey: Guid(698f3d949e7c21949aef0765166348bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound using Guid(698f3d949e7c21949aef0765166348bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7d1cb1c24bf1ecaebde363c89416a') in 0.011089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CubeShipsFree/Sound/Laser_Shoot6.wav
+  artifactKey: Guid(5e3a1c843c988034e9656b14a7b4ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Laser_Shoot6.wav using Guid(5e3a1c843c988034e9656b14a7b4ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c27ebe9eb970cf0084587fbc66a9070') in 0.073657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CubeShipsFree/Sound/Laser_Shoot98.wav
+  artifactKey: Guid(edcf47efb7252e14e914f09ddc54f08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Laser_Shoot98.wav using Guid(edcf47efb7252e14e914f09ddc54f08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927e767cd0b291773ab3c7e25a8fbb5c') in 0.019502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CubeShipsFree/Sound/Explosion10.wav
+  artifactKey: Guid(59fb8f914f8c0264e96e753ab0e5e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Explosion10.wav using Guid(59fb8f914f8c0264e96e753ab0e5e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09bc1ba148e6e7c9924fce44781cd10') in 0.023179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CubeShipsFree/Sound/Laser_Shoot34.wav
+  artifactKey: Guid(2faa0f2c201c87f458867cdfe3de5ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Laser_Shoot34.wav using Guid(2faa0f2c201c87f458867cdfe3de5ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f155634b1b4196de99a5411d07bb357d') in 0.025272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CubeShipsFree/Sound/Laser_Shoot33.wav
+  artifactKey: Guid(4463738e2a99c7042a5fe95e760fecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Laser_Shoot33.wav using Guid(4463738e2a99c7042a5fe95e760fecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8506476a64ff34ed21b0e0fa007fc988') in 0.023949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CubeShipsFree/Sound/Laser_Shoot69.wav
+  artifactKey: Guid(c70a1ac62270a9c40ba8ed46e98ef71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Laser_Shoot69.wav using Guid(c70a1ac62270a9c40ba8ed46e98ef71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6553dd1b295121782db816c4dc6e4867') in 0.022190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CubeShipsFree/Sound/Laser_Shoot99.wav
+  artifactKey: Guid(5063b500927df61408a587bcf23412c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Laser_Shoot99.wav using Guid(5063b500927df61408a587bcf23412c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35a4ade43a64b93675f4c7387024e1e') in 0.022688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/CubeShipsFree/Sound/Explosion7.wav
+  artifactKey: Guid(3658a989240594944bc1d5fed331a46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Sound/Explosion7.wav using Guid(3658a989240594944bc1d5fed331a46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e87ad6e5e02c9e8d2d8cf8818597391') in 0.024602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.179745 seconds.
+  path: Assets/CubeShipsFree/Effects
+  artifactKey: Guid(87c3bcd5f7df6b94b82e2de10071676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Effects using Guid(87c3bcd5f7df6b94b82e2de10071676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649c5d8033cf0c430a624169dab1347d') in 0.012898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CubeShipsFree/Effects/explosion_ship.prefab
+  artifactKey: Guid(5534fe87bdddbbb44ab4dd43c16c1a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Effects/explosion_ship.prefab using Guid(5534fe87bdddbbb44ab4dd43c16c1a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717506a48af858fe1a7025a99ad6c71c') in 0.036134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CubeShipsFree/Effects/StarField.prefab
+  artifactKey: Guid(58c02013b2d3a624aa1afef4591cd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Effects/StarField.prefab using Guid(58c02013b2d3a624aa1afef4591cd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff7aaa45c7fbf28125263c957d2adf') in 0.021569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.511777 seconds.
+  path: Assets/CubeShipsFree/Effects/StarField.prefab
+  artifactKey: Guid(58c02013b2d3a624aa1afef4591cd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeShipsFree/Effects/StarField.prefab using Guid(58c02013b2d3a624aa1afef4591cd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a448a479a7c7e5d061a198a8498a2f') in 0.016328 seconds 
